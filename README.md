@@ -9,7 +9,7 @@ Hospital Management System Schema:
  - Doctor 
   - Appointment 
    - Department 
-    - Medical-Record 
+ - Medical-Record 
 ---
 Ecommerce Website Schema:
 
