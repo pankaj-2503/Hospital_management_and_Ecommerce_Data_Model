@@ -5,19 +5,20 @@ This repository provides a set of Mongoose data models for creating robust and s
 Features
 Hospital Management System Schema:
 
-Patient
-Doctor
-Appointment
-Department
-Medical Record
+- Patient  
+ - Doctor 
+  - Appointment 
+   - Department 
+     - Medical Record 
+---
 Ecommerce Website Schema:
 
-User
-Product
-Order
-Category
-Review
-Getting Started
+- User
+ - Product
+  - Order
+   - Category
+
+** Getting Started **
 ---
 Clone the Repository:
 
@@ -28,17 +29,23 @@ cd mongoose-data-models
 Install Dependencies:
 
 bash
+```
 Copy code
 npm install
+```
+---
 Configure MongoDB Connection:
 
-Open config.js and update the MongoDB connection URI.
-Run the Example Script:
+- Open config.js and update the MongoDB connection URI.
+ - Run the Example Script:
+---
 
 Modify and run the example.js script to see how the data models work.
 bash
+```
 Copy code
 node example.js
+```
 Usage
 ---
 Install Mongoose:
@@ -77,7 +84,7 @@ newPatient.save()
   });
 ```
 ***
-### Close MongoDB Connection:
+## Close MongoDB Connection:
 ```
 javascript
 Copy code
